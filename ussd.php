@@ -72,10 +72,11 @@ switch ($text) {
 
                         // Further logic for selecting location based on state
                         if ($text === '1') {
+                            $locas=[];
                             $query = 'SELECT location FROM location WHERE state="' . $reps[0] . '"';
                             $stmt = $dbh->query($query);
                             $locations = $stmt->fetchAll();
-                            // Add more logic here if needed
+                            for
                         }
                     }
                 }
