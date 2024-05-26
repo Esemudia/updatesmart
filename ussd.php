@@ -4,10 +4,10 @@
 include "admin/config.php";
 
 // Read incoming request
-$sessionId = $_POST['sessionId'] ?? '';
-$serviceCode = $_POST['serviceCode'] ?? '';
-$phoneNumber = $_POST['phoneNumber'] ?? '';
-$text = $_POST['text'] ?? '';
+$sessionId = $_POST['sessionId'];
+$serviceCode = $_POST['serviceCode'];
+$phoneNumber = $_POST['phoneNumber'];
+$text = $_POST['text'];
 
 $response = '';
 $Myarray = [];
