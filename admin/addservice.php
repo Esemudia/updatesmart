@@ -99,7 +99,7 @@ $error="Something went wrong. Please try again";
 <div class="input-field col s12">
 <select id="location"  name="state" autocomplete="off">
 <option value="">location</option>
-<?php $sql = "SELECT LGA from location";
+<?php $sql = "SELECT lga from location";
 $query = $dbh -> prepare($sql);
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
