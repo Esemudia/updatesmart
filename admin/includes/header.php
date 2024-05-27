@@ -1,4 +1,7 @@
-
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">  
+      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet">
 <div class="mn-content fixed-sidebar">
             <header class="mn-header navbar-fixed">
 
