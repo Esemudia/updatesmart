@@ -91,7 +91,7 @@ $msg="Leave type record deleted";
                                     </thead>
                                  
                                     <tbody>
-<?php $sql = "SELECT * from language";
+<?php $sql = "SELECT * FROM language";
 $query = $dbh -> prepare($sql);
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
